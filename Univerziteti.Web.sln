@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Univerziteti.Web", "Univerziteti.Web\Univerziteti.Web.csproj", "{65DF000B-7F9D-41D3-BA20-24CFFFD6D0AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Univerziteti.BussinesObjects", "Univerziteti.BussinesObjects\Univerziteti.BussinesObjects.csproj", "{43A811EF-DC48-4083-A73C-E6BE40C79C9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Univerziteti.DataProvider", "Univerziteti.DataProvider\Univerziteti.DataProvider.csproj", "{185F7699-1475-41D5-94F8-68365AEF7BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65DF000B-7F9D-41D3-BA20-24CFFFD6D0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DF000B-7F9D-41D3-BA20-24CFFFD6D0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DF000B-7F9D-41D3-BA20-24CFFFD6D0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DF000B-7F9D-41D3-BA20-24CFFFD6D0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A811EF-DC48-4083-A73C-E6BE40C79C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A811EF-DC48-4083-A73C-E6BE40C79C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A811EF-DC48-4083-A73C-E6BE40C79C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A811EF-DC48-4083-A73C-E6BE40C79C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{185F7699-1475-41D5-94F8-68365AEF7BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185F7699-1475-41D5-94F8-68365AEF7BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185F7699-1475-41D5-94F8-68365AEF7BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185F7699-1475-41D5-94F8-68365AEF7BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

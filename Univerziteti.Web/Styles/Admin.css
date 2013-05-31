@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.tbl
+{
+	width: 100%;
+}
+
+.leftLabel
+{
+	width: 15%;
+}
+
+.rightTxt
+{
+	width: 85%;
+}
+
+.validator
+{
+	color: Red;
+}
+
+.txtWidth250
+{
+	width: 300px;
+}
+
+.line
+{
+	background-color: #808080;
+	height: 1px;
+}
+
+.td960
+{
+	width: 100%;
+}
+

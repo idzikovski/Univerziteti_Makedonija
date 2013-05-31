@@ -1,0 +1,22 @@
+﻿.Grid 
+{
+	border: 1px solid #CCC;
+	font: small/1.5 "Tahoma", Verdana, Helvetica, sans-serif;
+}
+
+.Grid input
+{
+	width: 95%;
+}
+
+.Grid tr
+{
+}
+
+.Grid th
+{
+	background-color: #465C71;
+	color: #DDE4EC;
+}
+
+

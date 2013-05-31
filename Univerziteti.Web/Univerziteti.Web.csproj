@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65DF000B-7F9D-41D3-BA20-24CFFFD6D0AD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Univerziteti.Web</RootNamespace>
+    <AssemblyName>Univerziteti.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Admin\AdminFakultet.aspx" />
+    <Content Include="Admin\AdminMMVrski.aspx" />
+    <Content Include="Admin\AdminNasoka.aspx" />
+    <Content Include="Admin\AdminPredmet.aspx" />
+    <Content Include="Admin\AdminUniverzitet.aspx" />
+    <Content Include="Admin\AdminVraboten.aspx" />
+    <Content Include="FakultetDetails.aspx" />
+    <Content Include="Fakulteti.aspx" />
+    <Content Include="Images\200313Cowboysedlo.jpg" />
+    <Content Include="Images\Afrodite_Zendelska.JPG" />
+    <Content Include="Images\afznakk.png" />
+    <Content Include="Images\aleksandarriste.jpg" />
+    <Content Include="Images\Aleksandra_Dimova.JPG" />
+    <Content Include="Images\Aleksandra_Stojanova.JPG" />
+    <Content Include="Images\Ana_Mitanoska.JPG" />
+    <Content Include="Images\anetabu.jpg" />
+    <Content Include="Images\antonca.jpg" />
+    <Content Include="Images\atanasiliev.jpg" />
+    <Content Include="Images\atentov.jpg" />
+    <Content Include="Images\biljanajonetun.jpg" />
+    <Content Include="Images\biljananac.jpg" />
+    <Content Include="Images\Blagica_Doneva.JPG" />
+    <Content Include="Images\blagojha.png" />
+    <Content Include="Images\Blagoj_Golomeov.JPG" />
+    <Content Include="Images\Boev.jpg" />
+    <Content Include="Images\borislavpopo.jpg" />
+    <Content Include="Images\Boris_Krstev.jpg" />
+    <Content Include="Images\boropi.jpg" />
+    <Content Include="Images\borozan.png" />
+    <Content Include="Images\bullet.png" />
+    <Content Include="Images\cveta.jpg" />
+    <Content Include="Images\Dejan_Mirakovski.JPG" />
+    <Content Include="Images\dekan - todor delipetrov.jpg" />
+    <Content Include="Images\dIcon.jpg" />
+    <Content Include="Images\dimitardimitr.jpg" />
+    <Content Include="Images\dimitartas.jpg" />
+    <Content Include="Images\Dobri_Cundev.jpg" />
+    <Content Include="Images\dragan-mihajlov.jpg" />
+    <Content Include="Images\Elena_Gelova.JPG" />
+    <Content Include="Images\emilija janevik ivanova.jpg" />
+    <Content Include="Images\fon.jpg" />
+    <Content Include="Images\Goran_Mijoski.JPG" />
+    <Content Include="Images\Goran_Tasev.JPG" />
+    <Content Include="Images\Gose_Petrov.JPG" />
+    <Content Include="Images\Jasmina_Buralieva.JPG" />
+    <Content Include="Images\Katerina_Despot.JPG" />
+    <Content Include="Images\Kiril.png" />
+    <Content Include="Images\kokalanov__vasko.jpg" />
+    <Content Include="Images\m-r vlatko jovanovski.jpg" />
+    <Content Include="Images\Marija_Hadzi_Nikolova.JPG" />
+    <Content Include="Images\Marjan Dzidrov.bmp" />
+    <Content Include="Images\Marjan_Delipetrov.JPG" />
+    <Content Include="Images\Mirjana_Golomeova.JPG" />
+    <Content Include="Images\natasa mojsovska.jpg" />
+    <Content Include="Images\Natasa_Koceska.JPG" />
+    <Content Include="Images\Nikolinka_Doneva.JPG" />
+    <Content Include="Images\Orce_Spasovski.jpg" />
+    <Content Include="Images\Radmila_Karanakova_Stefanovska.JPG" />
+    <Content Include="Images\rektor_12.jpg" />
+    <Content Include="Images\Risto_Dambov.jpg" />
+    <Content Include="Images\Sanja Pacemska.jpg" />
+    <Content Include="Images\Sasko_Ivanov.JPG" />
+    <Content Include="Images\Saso_Koceski.JPG" />
+    <Content Include="Images\Stojance_Mijalkovski.JPG" />
+    <Content Include="Images\Tena_Sijakova_Ivanova.JPG" />
+    <Content Include="Images\Todor_Serafimovski.JPG" />
+    <Content Include="Images\Trajce_Mitev.JPG" />
+    <Content Include="Images\Untitled-1.jpg" />
+    <Content Include="Images\Untitled.png" />
+    <Content Include="Images\VasilijaSarac.jpg" />
+    <Content Include="Images\Vesna_Zajkova_Panova.JPG" />
+    <Content Include="Images\Violeta_Stefanova.jpg" />
+    <Content Include="Images\Violeta_Stojanova.JPG" />
+    <Content Include="Images\vlado_gicev.jpg" />
+    <Content Include="Images\Vojo_Mircovski.JPG" />
+    <Content Include="Images\Zoran Panov.jpg" />
+    <Content Include="Images\Zoran Zdravev.jpg" />
+    <Content Include="Images\Zoran_Utkovski.JPG" />
+    <Content Include="Images\Ѓорги Димов.jpg" />
+    <Content Include="Images\Александар Крстев.jpg" />
+    <Content Include="Images\Александра Милева.jpg" />
+    <Content Include="Images\Билјана Златановска.jpg" />
+    <Content Include="Images\Благој Делипетров.jpg" />
+    <Content Include="Images\Игор Стојановиќ.jpg" />
+    <Content Include="Images\Лимонка Лазазера.jpg" />
+    <Content Include="Images\Марија Николовска.jpg" />
+    <Content Include="Images\Наташа Максимова.jpg" />
+    <Content Include="Images\Сања Пановска.jpg" />
+    <Content Include="Images\Татјана Пачемска%281%29.jpg" />
+    <Content Include="Images\Тоше Чекеровски.jpg" />
+    <Content Include="Images\Цветанка Матраковска.jpg" />
+    <Content Include="NasokaDetails.aspx" />
+    <Content Include="Nasoki.aspx" />
+    <Content Include="PredmetDetails.aspx" />
+    <Content Include="Predmeti.aspx" />
+    <Content Include="Styles\Admin.css" />
+    <Content Include="Styles\Grid.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="UniverzitetDetails.aspx" />
+    <Content Include="Univerziteti.aspx" />
+    <Content Include="VrabotenDetails.aspx" />
+    <Content Include="Vraboteni.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.master.cs">
+      <DependentUpon>Admin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminFakultet.aspx.cs">
+      <DependentUpon>AdminFakultet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminFakultet.aspx.designer.cs">
+      <DependentUpon>AdminFakultet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMMVrski.aspx.cs">
+      <DependentUpon>AdminMMVrski.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMMVrski.aspx.designer.cs">
+      <DependentUpon>AdminMMVrski.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminNasoka.aspx.cs">
+      <DependentUpon>AdminNasoka.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminNasoka.aspx.designer.cs">
+      <DependentUpon>AdminNasoka.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminPredmet.aspx.cs">
+      <DependentUpon>AdminPredmet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminPredmet.aspx.designer.cs">
+      <DependentUpon>AdminPredmet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminUniverzitet.aspx.cs">
+      <DependentUpon>AdminUniverzitet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminUniverzitet.aspx.designer.cs">
+      <DependentUpon>AdminUniverzitet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminVraboten.aspx.cs">
+      <DependentUpon>AdminVraboten.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminVraboten.aspx.designer.cs">
+      <DependentUpon>AdminVraboten.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FakultetDetails.aspx.cs">
+      <DependentUpon>FakultetDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FakultetDetails.aspx.designer.cs">
+      <DependentUpon>FakultetDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fakulteti.aspx.cs">
+      <DependentUpon>Fakulteti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fakulteti.aspx.designer.cs">
+      <DependentUpon>Fakulteti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="NasokaDetails.aspx.cs">
+      <DependentUpon>NasokaDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NasokaDetails.aspx.designer.cs">
+      <DependentUpon>NasokaDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nasoki.aspx.cs">
+      <DependentUpon>Nasoki.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nasoki.aspx.designer.cs">
+      <DependentUpon>Nasoki.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PredmetDetails.aspx.cs">
+      <DependentUpon>PredmetDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PredmetDetails.aspx.designer.cs">
+      <DependentUpon>PredmetDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Predmeti.aspx.cs">
+      <DependentUpon>Predmeti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Predmeti.aspx.designer.cs">
+      <DependentUpon>Predmeti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UniverzitetDetails.aspx.cs">
+      <DependentUpon>UniverzitetDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UniverzitetDetails.aspx.designer.cs">
+      <DependentUpon>UniverzitetDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Univerziteti.aspx.cs">
+      <DependentUpon>Univerziteti.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Univerziteti.aspx.designer.cs">
+      <DependentUpon>Univerziteti.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VrabotenDetails.aspx.cs">
+      <DependentUpon>VrabotenDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VrabotenDetails.aspx.designer.cs">
+      <DependentUpon>VrabotenDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vraboteni.aspx.cs">
+      <DependentUpon>Vraboteni.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vraboteni.aspx.designer.cs">
+      <DependentUpon>Vraboteni.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Univerziteti.BussinesObjects\Univerziteti.BussinesObjects.csproj">
+      <Project>{43A811EF-DC48-4083-A73C-E6BE40C79C9E}</Project>
+      <Name>Univerziteti.BussinesObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Univerziteti.DataProvider\Univerziteti.DataProvider.csproj">
+      <Project>{185F7699-1475-41D5-94F8-68365AEF7BCD}</Project>
+      <Name>Univerziteti.DataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Programi\IKI_3_1_Linearni_transformacii.pdf" />
+    <None Include="Programi\iki_5_3_bazi na podatoci.pdf" />
+    <None Include="Programi\site_1_1_matematika_1.pdf" />
+    <None Include="Programi\site_1_2_fizika_1.pdf" />
+    <None Include="Programi\site_1_3_osnovi_na_elektrotehnika_1.pdf" />
+    <None Include="Programi\site_1_4_Strukturirano_programiranje.pdf" />
+    <None Include="Programi\site_2_1_matematika_2.pdf" />
+    <None Include="Programi\site_2_2_fizika_2.pdf" />
+    <None Include="Programi\site_2_4_Objektno_orientirano_programirawe.pdf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8820</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
